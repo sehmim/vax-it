@@ -14,16 +14,9 @@
     <body>
         <!-- Page content-->
         <div class="container d-flex flex-column" style="max-width: 560px;">   
-            <br><br>
-                <label for="start">Start date:</label>
-    
-                <input type="date" id="start" name="trip-start"
-                       value="2018-07-22"
-                       min="2018-01-01" max="2018-12-31">
-
             <br>
-
-            <div>Available Locations</div>
+            <br>
+            <h4>Available Locations</h4>
 
             <div class="btn-group btn-group-toggle d-flex flex-column" data-toggle="buttons">
                 <label class="btn btn-secondary m-2">
@@ -31,7 +24,7 @@
                   <div class="card">
                     <div class="card-body">
                         <div>
-                            <img src="https://i.stack.imgur.com/aPL1j.png" alt="map" width="400">
+                            <img src="https://i.stack.imgur.com/aPL1j.png" alt="map" style="width: 100%;">
                         </div>
                       <h5 class="card-title text-dark">Clinic X</h5>
                       <h6 class="card-subtitle mb-2 text-dark">1122 Young Street, M1M XXX</h6>
@@ -46,7 +39,7 @@
                       <div class="card">
                         <div class="card-body">
                             <div>
-                                <img src="https://i.stack.imgur.com/aPL1j.png" alt="map" width="400">
+                                <img src="https://i.stack.imgur.com/aPL1j.png" alt="map" style="width: 100%;">
                             </div>
                           <h5 class="card-title text-dark">Clinic X</h5>
                           <h6 class="card-subtitle mb-2 text-dark">1122 Young Street, M1M XXX</h6>
@@ -61,7 +54,7 @@
                         <div class="card">
                         <div class="card-body">
                             <div>
-                                <img src="https://i.stack.imgur.com/aPL1j.png" alt="map" width="400">
+                                <img src="https://i.stack.imgur.com/aPL1j.png" alt="map" style="width: 100%;">
                             </div>
                             <h5 class="card-title text-dark">Clinic X</h5>
                             <h6 class="card-subtitle mb-2 text-dark">1122 Young Street, M1M XXX</h6>
@@ -72,7 +65,8 @@
                 </label>
 
             
-                <div class="text-center p-2">
+                <div class="text-center p-2 d-flex justify-content-between">
+                    <button onclick="location.href='calender2.html'" >Back</button>
                     <button onclick="location.href='calender3.html'" >Next</button>
                 </div>
 

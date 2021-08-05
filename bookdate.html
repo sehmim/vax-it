@@ -42,23 +42,30 @@
         <!-- Page content-->
         <div class="container d-flex flex-column" style="max-width: 560px;">   
             <br><br>
-            <h3>Booking History</h3> 
+            <h3>Pick Dose</h3> 
             <div class="card bg-light">
                 <article class="card-body mx-auto">
-                <form>
                 <div class="form-group input-group d-flex flex-column">
-                    <p>Date:</p>
-                    <p>Time:</p>
-                    <p>Location:</p>
-                    <p>Dose:</p>
-                    <p>Vaccine:</p>
-
+                    <select class="">
+                        <option selected="">Vaccine name</option>
+                        <option>Pfizer</option>
+                        <option>Moderna</option>
+                        <option>J&J</option>
+                    </select>
+            
+                    <select class="">
+                        <option selected="">Dose Number</option>
+                        <option>1st</option>
+                        <option>2nd</option>
+                    </select>
                 </div> <!-- form-group end.// -->
-                </form>
+                        
                 </article>
             </div>
-            <div class="text-center p-2">
-                <button onclick="location.href='dashboardComplte.html'" >Back</button>
+            <div class="text-center p-2 d-flex justify-content-between">
+                <button onclick="location.href='bookdate.html'" >Back</button>
+
+                <button onclick="location.href='calender.html'" >Next</button>
             </div>
         </div> 
         <!-- Bootstrap core JS-->
