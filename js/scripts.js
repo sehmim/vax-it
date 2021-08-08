@@ -27,3 +27,8 @@ function login(){
         alert("hi")
     };
 }
+
+function confirmPatientCheckIn() {
+    alert("Appointment Has Been Booked")
+    window.location.replace('patientConfirm.html')
+}
