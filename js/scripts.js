@@ -11,8 +11,6 @@ function init(params) {
 
 
 
-
-
 }
 
 init()
@@ -31,4 +29,22 @@ function login(){
 function confirmPatientCheckIn() {
     alert("Appointment Has Been Booked")
     window.location.replace('patientConfirm.html')
+}
+
+function pickedDate() {
+    let pickedDate = new Date(document.getElementById("bookingDate").value)
+
+    if ((pickedDate.getDate() +1 )% 2 === 0){
+        window.location.replace('calender22.html')
+    } else if ((pickedDate.getDate() +1 )% 3 === 0){
+        window.location.replace('calender33.html')
+    } else if ((pickedDate.getDate() +1 )% 5 === 0){
+        window.location.replace('calender55.html')
+    } else if ((pickedDate.getDate() +1 )% 7 === 0){
+        window.location.replace('calender77.html')
+    } else if ((pickedDate.getDate() +1 )% 11 === 0){
+        window.location.replace('calender11.html')
+    } else {
+        window.location.replace('calender2.html')
+    }
 }
